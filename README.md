@@ -22,3 +22,10 @@ export DO_STORAGE_ENDPOINT_REGION=sgp1
 '''
 ng serve --proxy-config proxy-config.js
 '''
+
+## Railway Deployment
+'''
+ng-build
+'''
+
+
