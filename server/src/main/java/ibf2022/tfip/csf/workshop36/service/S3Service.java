@@ -47,6 +47,7 @@ public class S3Service {
                 filenameExt = tk.nextToken();
             }else{
                 filenameExt = tk.nextToken();
+                count++;
             }
         }
 
