@@ -10,12 +10,13 @@ import { CameraComponent } from './components/camera.component';
 import { UploadComponent } from './components/upload.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from 'src/app/material.module';
-
+import { ViewImageComponent} from './components/view-image.component';
 @NgModule({
   declarations: [
     AppComponent,
     CameraComponent,
-    UploadComponent
+    UploadComponent,
+    ViewImageComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +25,7 @@ import { MaterialModule } from 'src/app/material.module';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

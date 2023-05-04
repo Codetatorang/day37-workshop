@@ -41,7 +41,6 @@ export class CameraComponent implements OnInit, OnDestroy, AfterViewInit{
     this.camSvc.imageData = webcamImg.imageAsDataUrl
     this.pics.push(this.camSvc.imageData)
 
-    console.log("enteres")
   }
 
 

@@ -1,3 +1,4 @@
 export interface UploadResult{
-    imagekey:string
+    imagekey:string,
+    image:string
 }

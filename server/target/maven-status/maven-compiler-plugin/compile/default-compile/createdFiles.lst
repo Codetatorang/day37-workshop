@@ -1,3 +1,7 @@
-ibf2022/tfip/csf/workshop36/Workshop36Application.class
+ibf2022/tfip/csf/workshop36/service/FileUploadService.class
+ibf2022/tfip/csf/workshop36/repository/FileUploadRepository.class
 ibf2022/tfip/csf/workshop36/config/AppConfig.class
+ibf2022/tfip/csf/workshop36/Workshop36Application.class
+ibf2022/tfip/csf/workshop36/model/Post.class
+ibf2022/tfip/csf/workshop36/controller/FileUploadController.class
 ibf2022/tfip/csf/workshop36/service/S3Service.class

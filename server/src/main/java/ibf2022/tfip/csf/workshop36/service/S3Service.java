@@ -26,16 +26,30 @@ public class S3Service {
     @Value("${DO_STORAGE_BUCKETNAME}")
     private String bucketName;
 
-    public String upload(MultipartFile file)throws IOException{
+    public String upload(MultipartFile file, String title, String complain)throws IOException{
         Map<String,String> userData = new HashMap<>();
         userData.put("name", "vince");
         userData.put("uploadDateTIme", LocalDateTime.now().toString());
         userData.put("originalFilename", file.getOriginalFilename());
+        userData.put("title", title);
+        userData.put("complain", complain);
 
+        //!TODO loaded content includes the base64 file
+        // System.out.printf("file:%s", file.getContentType());
+        // System.out.println("before: >>>>>>>>>>>>>" + file.getContentType());
+        
+        //experimental
+        // String testString = file.getContentType();
+        // testString = testString.replace(";base64", "");
+        
+        
         ObjectMetadata metadata = new ObjectMetadata();
+        // metadata.setContentType(testString);
+        // System.out.println("after: >>>>>>>>>>>>>" + testString);
         metadata.setContentType(file.getContentType());
         metadata.setContentLength(file.getSize());
         metadata.setUserMetadata(userData);
+
 
         String key = UUID.randomUUID().toString().substring(0,  8);
         StringTokenizer tk = new StringTokenizer(file.getOriginalFilename(), "." );
