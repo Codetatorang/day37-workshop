@@ -36,7 +36,7 @@ public class S3Service {
 
         //!TODO loaded content includes the base64 file
         // System.out.printf("file:%s", file.getContentType());
-        // System.out.println("before: >>>>>>>>>>>>>" + file.getContentType());
+        System.out.println("before: >>>>>>>>>>>>>" + file.getContentType());
         
         //experimental
         // String testString = file.getContentType();

@@ -1,7 +1,7 @@
-/home/vince/Code/project/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/Workshop36Application.java
-/home/vince/Code/project/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/model/Post.java
-/home/vince/Code/project/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/repository/FileUploadRepository.java
-/home/vince/Code/project/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/config/AppConfig.java
-/home/vince/Code/project/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/controller/FileUploadController.java
-/home/vince/Code/project/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/service/S3Service.java
-/home/vince/Code/project/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/service/FileUploadService.java
+/home/vince/Code/project-day37/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/config/AppConfig.java
+/home/vince/Code/project-day37/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/controller/FileUploadController.java
+/home/vince/Code/project-day37/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/repository/FileUploadRepository.java
+/home/vince/Code/project-day37/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/service/S3Service.java
+/home/vince/Code/project-day37/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/model/Post.java
+/home/vince/Code/project-day37/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/service/FileUploadService.java
+/home/vince/Code/project-day37/workshop37/server/src/main/java/ibf2022/tfip/csf/workshop36/Workshop36Application.java
